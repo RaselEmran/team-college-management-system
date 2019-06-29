@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/print.css": "/css/print.css",
+    "/css/vendor.css": "/css/vendor.css",
+    "/css/colorpicker.css": "/css/colorpicker.css",
+    "/css/report.css": "/css/report.css",
+    "/js/site-dashboard.js": "/js/site-dashboard.js",
+    "/js/dashboard.js": "/js/dashboard.js",
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/theme.js": "/js/theme.js",
+    "/js/colorpicker.js": "/js/colorpicker.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/css/theme.css": "/css/theme.css",
+    "/css/site-dashboard.css": "/css/site-dashboard.css",
+    "/css/pace.css": "/css/pace.css",
+    "/js/editor.js": "/js/editor.js",
+    "/js/pace.js": "/js/pace.js"
+}

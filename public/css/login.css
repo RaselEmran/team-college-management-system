@@ -1,0 +1,284 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.login_1 {
+    padding: 80px 0px;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.forget-pass {
+ 
+    color: #fff;
+}
+
+
+.tri-button {
+    display: block;
+    margin: auto;
+    width: 160px;
+    padding: 9px 15px;
+    background-color: #77C23C;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 0 15px 12px 0 rgba(0, 0, 0, .1);
+    transition: 0.3s;
+    
+    
+}
+.tri-button:hover {
+    background-color: #92d85c;
+    color: #fff;
+    box-shadow: 0 15px 12px 0 rgba(0, 0, 0, .3);
+    transition: 0.3s;
+    
+    
+}
+
+#bd_area {
+    background-image: url(/images/login2.png);
+    background-repeat: no-repeat;
+    background-size: 79.5%;
+    height: 496px;
+    
+}
+
+.form-group label, input{
+    display: block;
+    margin: auto;
+}
+
+.form-group {
+    width:80%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.pic_img1 {
+    padding-top: 190px;
+}
+
+.pic_img1 img {
+   width:70%;
+}
+
+.pic_img {
+    padding-top: 150px;
+}
+.pic_img img {
+   width:70%;
+}
+
+input[type=password] {
+    background-color: #d9720b;
+    border: none;
+    color: #fff;
+}
+
+
+input[type=password]:focus{
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+input[type=text]{
+    background-color: #d9720b;
+    border: none;
+    box-shadow: none;
+}
+
+input[type=text]:focus{
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+  .bg-area11 img
+    {
+            margin-top: -17px;
+    }
+
+
+
+
+
+/*    Responsive start here         */
+/*    Responsive start here         */
+
+/*    for tablet Mobile */
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    
+    
+    
+ #cres h1 {
+        margin-top: 10px !important;
+        font-size: 22px !important;
+    }
+    
+    .tri-button {
+        width:120px;
+        margin-top: 15px !important;
+    }
+    
+ #cres {
+/*    margin-left: 0%;*/
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+    .login_1 {
+        padding: 20px 0px;
+    }
+    #bd_area {
+        background-image: none;
+    }
+    
+    
+.pic_img1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pic_img1 img {
+   width:30%;
+}
+.pic_img {
+    padding-top: 0px;
+}
+.pic_img img {
+   width:20%;
+}
+    
+    #bd_area {
+        background-image: none;
+    }
+    
+    
+    #cres {
+    margin-left: 20%;
+    margin-top: 20px;
+}
+    
+#bd_area {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}    
+    
+}
+
+/*     For Mobile Responsive       */
+/*     For Mobile Responsive       */
+
+    
+
+    
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    
+.login_1 {
+        padding: 20px 0px;
+    }
+    #bd_area {
+        background-image: none;
+    }
+    
+    
+.pic_img1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pic_img1 img {
+   width:50%;
+}
+.pic_img {
+    padding-top: 0px;
+}
+.pic_img img {
+   width:40%;
+}
+    
+    #bd_area {
+        background-image: none;
+    }
+    
+    
+    #cres {
+    margin-left: 0%;
+    margin-top: 20px;
+}
+    
+#bd_area {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}    
+    
+}
+
+
+/*             others       */
+/*             others       */
+
+
+
+@media screen and (min-width:360px) and (max-width:479px){
+    .login_1 {
+        padding: 20px 0px;
+    }
+    
+    
+    #bd_area {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+    .pic_img1 {
+        padding-top: 0;
+        margin-bottom: 10px;
+    } 
+    .pic_img1 img{
+      width:35%;
+    }
+    .pic_img {
+        padding-top: 0;
+        margin-bottom: 10px;
+        
+    }
+    .pic_img img{
+       width:20%;
+        
+    }
+    
+    .bg-area11 h1 {
+        margin-top: 10px !important;
+        font-size: 25px;
+    }
+
+    
+    .tri-button {
+        width:120px;
+        margin-top: 15px !important;
+    }
+    
+    .form-check {
+        font-size: 12px;
+    }
+    
+}
+
+
